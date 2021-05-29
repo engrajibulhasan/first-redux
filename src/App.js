@@ -3,6 +3,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import AddProduct from "./components/AddProduct/AddProduct";
 import CounterPage from "./components/CounterPage/CounterPage";
 import Home from "./components/Home/Home";
 //ACTION ->It describe What you want to do
@@ -56,6 +57,9 @@ function App() {
       <Switch>
         <Route path="/counter">
           <CounterPage/>
+        </Route>
+        <Route path="/add-product">
+          <AddProduct/>
         </Route>
         <Route path="/">
             <Home />
