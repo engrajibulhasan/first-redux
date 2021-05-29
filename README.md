@@ -3,6 +3,6 @@ I have created tis app for testing multiple reducer operation in REDUX. This rep
 You can visit this from [Here](https://github.com/facebook/create-react-app).
 
 ## Features
--Counter Increment and Decrement
+- Counter Increment and Decrement
 - Login Check
 - Cart Check
